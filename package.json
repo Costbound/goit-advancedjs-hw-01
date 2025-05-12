@@ -1,0 +1,20 @@
+{
+  "name": "try-deploy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/goit-js-hw-09/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^11.0.2",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "simplelightbox": "^2.14.3",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}
