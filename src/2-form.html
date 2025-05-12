@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;500&family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/2-form.css" />
+    <script type="module" src="./js/2-form.js"></script>
+  </head>
+  <body>
+    <section>
+      <a href="./index.html">Go to home</a>
+      <h1>Welcome to Form</h1>
+    </section>
+    <section class="form-section">
+      <form class="feedback-form" autocomplete="off">
+        <label class="lable-any">
+          Email
+          <input
+            class="email-input input-any"
+            type="email"
+            name="email"
+            autofocus
+          />
+        </label>
+        <label class="lable-any">
+          Message
+          <textarea
+            class="message-input input-any"
+            name="message"
+            rows="8"
+          ></textarea>
+        </label>
+        <button class="submit-btn" type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
